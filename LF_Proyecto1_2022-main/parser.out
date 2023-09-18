@@ -1,0 +1,112 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    RTEXTO
+
+Grammar
+
+Rule 0     S' -> init
+Rule 1     init -> instrucciones
+Rule 2     instrucciones -> instrucciones instruccion
+Rule 3     instrucciones -> instruccion
+Rule 4     instruccion -> INSTIPO
+Rule 5     instruccion -> INSTEXTO
+Rule 6     instruccion -> INSTFUNCION
+Rule 7     instruccion -> INSTESTILO
+Rule 8     INSTIPO -> LLAA RTIPO LLAC instrucciones_2 LLAA DIV RTIPO LLAC
+Rule 9     INSTFUNCION -> LLAA RFUNCION IGUAL RESCRIBIR LLAC instrucciones_2 LLAA DIV RFUNCION LLAC
+Rule 10    INSTESTILO -> LLAA RESTILO LLAC instrucciones_2 LLAA DIV RESTILO LLAC
+Rule 11    instrucciones_2 -> instrucciones_2 instruccion_2
+Rule 12    instrucciones_2 -> instruccion_2
+Rule 13    instruccion_2 -> LLAA ROPERACION IGUAL tipo LLAC instrucciones_2 LLAA DIV ROPERACION LLAC
+Rule 14    instruccion_2 -> LLAA RNUMERO LLAC DECIMAL LLAA DIV RNUMERO LLAC
+Rule 15    instruccion_2 -> LLAA RNUMERO LLAC ENTERO LLAA DIV RNUMERO LLAC
+Rule 16    instruccion_2 -> CADENA
+Rule 17    instruccion_2 -> LLAA RTITULO LLAC ROPERACIONES LLAA DIV RTITULO LLAC
+Rule 18    instruccion_2 -> LLAA RDESCRIPCION LLAC CORA RTEXTO2 CORC LLAA DIV RDESCRIPCION LLAC
+Rule 19    instruccion_2 -> LLAA RCONTENIDO LLAC CORA RTIPO2 CORC LLAA DIV RCONTENIDO LLAC
+Rule 20    instruccion_2 -> LLAA RTITULO RCOLOR IGUAL COLOR RTAMANIO IGUAL ENTERO DIV LLAC
+Rule 21    instruccion_2 -> LLAA RDESCRIPCION RCOLOR IGUAL COLOR RTAMANIO IGUAL ENTERO DIV LLAC
+Rule 22    instruccion_2 -> LLAA RCONTENIDO RCOLOR IGUAL COLOR RTAMANIO IGUAL ENTERO DIV LLAC
+Rule 23    COLOR -> RAZUL
+Rule 24    COLOR -> RVERDE
+Rule 25    COLOR -> RROJO
+Rule 26    COLOR -> RNEGRO
+Rule 27    COLOR -> RAMARRILLO
+Rule 28    COLOR -> RMORADO
+Rule 29    COLOR -> RNARANJA
+Rule 30    COLOR -> RANARANJADO
+Rule 31    tipo -> RSUMA
+Rule 32    tipo -> RRESTA
+Rule 33    tipo -> RMULTIPLICACION
+Rule 34    tipo -> RDIVISION
+Rule 35    tipo -> RPOTENCIA
+Rule 36    tipo -> RMOD
+Rule 37    tipo -> RINVERSO
+Rule 38    tipo -> RCOSENO
+Rule 39    tipo -> RSENO
+Rule 40    tipo -> RTANGENTE
+Rule 41    tipo -> RRAIZ
+
+Terminals, with rules where they appear
+
+CADENA               : 16
+CORA                 : 18 19
+CORC                 : 18 19
+DECIMAL              : 14
+DIV                  : 8 9 10 13 14 15 17 18 19 20 21 22
+ENTERO               : 15 20 21 22
+IGUAL                : 9 13 20 20 21 21 22 22
+LLAA                 : 8 8 9 9 10 10 13 13 14 14 15 15 17 17 18 18 19 19 20 21 22
+LLAC                 : 8 8 9 9 10 10 13 13 14 14 15 15 17 17 18 18 19 19 20 21 22
+RAMARRILLO           : 27
+RANARANJADO          : 30
+RAZUL                : 23
+RCOLOR               : 20 21 22
+RCONTENIDO           : 19 19 22
+RCOSENO              : 38
+RDESCRIPCION         : 18 18 21
+RDIVISION            : 34
+RESCRIBIR            : 9
+RESTILO              : 10 10
+RFUNCION             : 9 9
+RINVERSO             : 37
+RMOD                 : 36
+RMORADO              : 28
+RMULTIPLICACION      : 33
+RNARANJA             : 29
+RNEGRO               : 26
+RNUMERO              : 14 14 15 15
+ROPERACION           : 13 13
+ROPERACIONES         : 17
+RPOTENCIA            : 35
+RRAIZ                : 41
+RRESTA               : 32
+RROJO                : 25
+RSENO                : 39
+RSUMA                : 31
+RTAMANIO             : 20 21 22
+RTANGENTE            : 40
+RTEXTO               : 
+RTEXTO2              : 18
+RTIPO                : 8 8
+RTIPO2               : 19
+RTITULO              : 17 17 20
+RVERDE               : 24
+error                : 
+
+Nonterminals, with rules where they appear
+
+COLOR                : 20 21 22
+INSTESTILO           : 7
+INSTEXTO             : 5
+INSTFUNCION          : 6
+INSTIPO              : 4
+init                 : 0
+instruccion          : 2 3
+instruccion_2        : 11 12
+instrucciones        : 1 2
+instrucciones_2      : 8 9 10 11 13
+tipo                 : 13
+
