@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<listadoInicial>
+   <configInicial id="SIMULACION1" idEmpresa="BNR" idPunto="VN"> <!-- [0].attrib -->
+     <escritoriosActivos><!-- len(root[0][0]) -->
+         <escritorio idEscritorio="B10"/><!-- [0][0][0].text -->
+         <escritorio idEscritorio="A20"/><!-- [0][0][1].text -->
+     </escritoriosActivos>
+     <listadoClientes><!-- len(root[0][1]) -->
+         <cliente dpi="2933151161111"><!--     [0][1][0].attrib -->
+            <nombre> Arturito </nombre><!--    [0][1][0][0].text -->
+            <listadoTransacciones><!-- len(root[0][1][0][1]) listado de transacciones -->
+               <transaccion idTransaccion="DEEF" cantidad="2"/> <!-- [0][1][0][1][0].text -->
+            </listadoTransacciones>			
+         </cliente>
+         <cliente dpi="2933151162222">
+            <nombre> Bill Gates </nombre>
+            <listadoTransacciones>
+               <transaccion idTransaccion="DEEF" cantidad="1"/>
+            </listadoTransacciones>			
+         </cliente>
+         <cliente dpi="2933151163333">
+            <nombre> Dante </nombre>
+            <listadoTransacciones>
+               <transaccion idTransaccion="DEEF" cantidad="1"/>
+            </listadoTransacciones>			
+         </cliente>
+         <cliente dpi="2933151164444">
+            <nombre> Freddie Mercuri </nombre>
+            <listadoTransacciones>
+               <transaccion idTransaccion="APCU" cantidad="1"/>
+               <transaccion idTransaccion="DEEF" cantidad="1"/>
+               <transaccion idTransaccion="COSE" cantidad="1"/>
+            </listadoTransacciones>			
+         </cliente>
+         <cliente dpi="29331511655555">
+            <nombre> Henry Ford </nombre>
+            <listadoTransacciones>
+               <transaccion idTransaccion="COCH" cantidad="2"/>
+            </listadoTransacciones>			
+         </cliente>
+     </listadoClientes>
+   </configInicial>
+   <configInicial id="SIMULACION2" idEmpresa="CLR" idPunto="AMTLN">
+     <escritoriosActivos>
+         <escritorio idEscritorio="J600"/>
+         <escritorio idEscritorio="K500"/>
+         <escritorio idEscritorio="SIUU"/>
+     </escritoriosActivos>
+     <listadoClientes>
+         <cliente dpi="2933151161111">
+            <nombre> Arturito </nombre>
+            <listadoTransacciones>
+               <transaccion idTransaccion="COCA" cantidad="1"/>
+            </listadoTransacciones>			
+         </cliente>
+         <cliente dpi="2933151162222">
+            <nombre> Bill Gates </nombre>
+            <listadoTransacciones>
+               <transaccion idTransaccion="CASE" cantidad="1"/>
+            </listadoTransacciones>			
+         </cliente>
+         <cliente dpi="2933151163333">
+            <nombre> Dante </nombre>
+            <listadoTransacciones>
+               <transaccion idTransaccion="PAME" cantidad="1"/>
+               <transaccion idTransaccion="COPR" cantidad="1"/>
+            </listadoTransacciones>			
+         </cliente>
+         <cliente dpi="2933151164444">
+            <nombre> Freddie Mercuri </nombre>
+            <listadoTransacciones>
+               <transaccion idTransaccion="COCA" cantidad="1"/>
+               <transaccion idTransaccion="COPR" cantidad="3"/>
+            </listadoTransacciones>			
+         </cliente>
+         <cliente dpi="29331511655555">
+            <nombre> Henry Ford </nombre>
+            <listadoTransacciones>
+               <transaccion idTransaccion="COCA" cantidad="1"/>
+            </listadoTransacciones>			
+         </cliente>
+     </listadoClientes>
+   </configInicial>
+</listadoInicial>

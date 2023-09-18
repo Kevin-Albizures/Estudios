@@ -1,0 +1,137 @@
+digraph G{
+
+node [shape=rect border="1" cellspacing="1" cellpadding="1" style="rounded"  ];
+node [fontname="Helvetica,Arial,sans-serif" color="#28646D"];
+edge [fontname="Helvetica,Arial,sans-serif" color="#28646D"];
+OrdenACTIVOS [label=<<TABLE border="1" cellspacing="8" cellpadding="8" style="rounded" bgcolor="#28646D" >
+ <TR>
+     <TD bgcolor="#B8ECF4" >ACTIVOS</TD>
+ </TR>
+ </TABLE>>];OrdenINACTIVOS [label=<<TABLE border="1" cellspacing="8" cellpadding="8" style="rounded" bgcolor="#28646D" >
+ <TR>
+     <TD bgcolor="#B8ECF4" >INACTIVOS</TD>
+ </TR>
+ </TABLE>>];OrdenESCRITORIOS [label=<<TABLE border="1" cellspacing="8" cellpadding="8" style="rounded" bgcolor="#28646D" >
+ <TR>
+     <TD bgcolor="#B8ECF4" >ESCRITORIOS</TD>
+ </TR>
+ </TABLE>>];Orden0 [label=<<TABLE border="1" cellspacing="8" cellpadding="8" style="rounded" bgcolor="#28646D" >
+ <TR>
+     <TD bgcolor="#B8ECF4" colspan="2">ID: B10</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Clientes atendidos</TD>
+     <TD bgcolor="#B8ECF4" >1</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Cliente atendiendo</TD>
+     <TD bgcolor="#B8ECF4" > Arturito </TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Tiempo promedio</TD>
+     <TD bgcolor="#B8ECF4" >10.0 min</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Tiempo minimo</TD>
+     <TD bgcolor="#B8ECF4" >10 min</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4">Tiempo maximo</TD>
+     <TD bgcolor="#B8ECF4">10 min</TD>
+ </TR>
+ </TABLE>>];Orden1 [label=<<TABLE border="1" cellspacing="8" cellpadding="8" style="rounded" bgcolor="#28646D" >
+ <TR>
+     <TD bgcolor="#B8ECF4" colspan="2">ID: A20</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Clientes atendidos</TD>
+     <TD bgcolor="#B8ECF4" >1</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Cliente atendiendo</TD>
+     <TD bgcolor="#B8ECF4" > Bill Gates </TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Tiempo promedio</TD>
+     <TD bgcolor="#B8ECF4" >5.0 min</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Tiempo minimo</TD>
+     <TD bgcolor="#B8ECF4" >5 min</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4">Tiempo maximo</TD>
+     <TD bgcolor="#B8ECF4">5 min</TD>
+ </TR>
+ </TABLE>>];Orden10 [label=<<TABLE border="1" cellspacing="8" cellpadding="8" style="rounded" bgcolor="#28646D" >
+ <TR>
+     <TD bgcolor="#B8ECF4" colspan="2">Cliente 3</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >DPI</TD>
+     <TD bgcolor="#B8ECF4" >29331511655555</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Nombre</TD>
+     <TD bgcolor="#B8ECF4" > Henry Ford </TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4">Tiempo de atencion</TD>
+     <TD bgcolor="#B8ECF4">16 min</TD>
+ </TR>
+ </TABLE>>];Orden11 [label=<<TABLE border="1" cellspacing="8" cellpadding="8" style="rounded" bgcolor="#28646D" >
+ <TR>
+     <TD bgcolor="#B8ECF4" colspan="2">Cliente 2</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >DPI</TD>
+     <TD bgcolor="#B8ECF4" >2933151164444</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Nombre</TD>
+     <TD bgcolor="#B8ECF4" > Freddie Mercuri </TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4">Tiempo de atencion</TD>
+     <TD bgcolor="#B8ECF4">30 min</TD>
+ </TR>
+ </TABLE>>];Orden12 [label=<<TABLE border="1" cellspacing="8" cellpadding="8" style="rounded" bgcolor="#28646D" >
+ <TR>
+     <TD bgcolor="#B8ECF4" colspan="2">Cliente 1</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >DPI</TD>
+     <TD bgcolor="#B8ECF4" >2933151163333</TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4" >Nombre</TD>
+     <TD bgcolor="#B8ECF4" > Dante </TD>
+ </TR>
+ <TR>
+     <TD bgcolor="#B8ECF4">Tiempo de atencion</TD>
+     <TD bgcolor="#B8ECF4">5 min</TD>
+ </TR>
+ </TABLE>>];
+OrdenESCRITORIOS->OrdenACTIVOS
+OrdenESCRITORIOS->OrdenINACTIVOS
+
+
+OrdenACTIVOS->Orden0
+
+
+Orden0->Orden1
+
+
+CLIENTES_EN_ESPERA->Orden10
+
+
+Orden10->Orden11
+
+
+Orden11->Orden12
+
+
+Orden12->Orden13
+
+
+}
