@@ -1,0 +1,61 @@
+digraph G{
+
+node [shape=component];
+Orden2 [label=<<TABLE>
+ <TR>
+     <TD>No. Orden:</TD>
+     <TD>2</TD>
+ </TR>
+ <TR>
+     <TD>Nombre</TD>
+     <TD>1fadfasd</TD>
+ </TR>
+ <TR>
+     <TD>Forma de pago</TD>
+     <TD>Efectivo</TD>
+ </TR>
+ <TR>
+     <TD>Ingrediente</TD>
+     <TD>Salami</TD>
+ </TR>
+ <TR>
+     <TD>Tiempo en cola</TD>
+     <TD>6.0 min</TD>
+ </TR>
+ <TR>
+     <TD>Tiempo total</TD>
+     <TD>12 min</TD>
+ </TR>
+ </TABLE>>];
+node [shape=component];
+Orden1 [label=<<TABLE>
+ <TR>
+     <TD>No. Orden:</TD>
+     <TD>1</TD>
+ </TR>
+ <TR>
+     <TD>Nombre</TD>
+     <TD>1fadfasd</TD>
+ </TR>
+ <TR>
+     <TD>Forma de pago</TD>
+     <TD>Efectivo</TD>
+ </TR>
+ <TR>
+     <TD>Ingrediente</TD>
+     <TD>Costilla</TD>
+ </TR>
+ <TR>
+     <TD>Tiempo en cola</TD>
+     <TD>6 min</TD>
+ </TR>
+ <TR>
+     <TD>Tiempo total</TD>
+     <TD>6 min</TD>
+ </TR>
+ </TABLE>>];
+
+Orden2->Orden1
+
+
+}
