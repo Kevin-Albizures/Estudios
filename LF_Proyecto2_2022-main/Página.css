@@ -1,0 +1,122 @@
+#contenedor1{
+position: absolute;
+left:50px;
+top:100px;
+width :800px;
+height :500px;
+background-color: rgb(241,205,0);
+}#contenedor2{
+position: absolute;
+left:50px;
+top:100px;
+width :400px;
+height :350px;
+background-color: rgb(0,213,241);
+}#contenedor3{
+position: absolute;
+left:500px;
+top:100px;
+width :250px;
+height :350px;
+background-color: rgb(241,0,221);
+}#adfafas{
+width :px;
+height :px;
+}#etiqueta1{
+position: absolute;
+left:50px;
+top:25px;
+width :200px;
+height :10px;
+color: rgb(17,0,255);
+
+}#texto1{
+position: absolute;
+left:50px;
+top:50px;
+width :px;
+height :px;
+}#etiqueta2{
+position: absolute;
+left:50px;
+top:100px;
+width :200px;
+height :10px;
+color: rgb(17,0,255);
+
+}#texto2{
+position: absolute;
+left:50px;
+top:125px;
+width :px;
+height :px;
+}#etiqueta3{
+position: absolute;
+left:50px;
+top:175px;
+width :200px;
+height :10px;
+color: rgb(17,0,255);
+
+}#clave1{
+position: absolute;
+left:50px;
+top:200px;
+width :px;
+height :px;
+}#etiqueta4{
+position: absolute;
+left:50px;
+top:25px;
+width :200px;
+height :10px;
+color: rgb(17,0,255);
+
+}#contenedor4{
+position: absolute;
+left:50px;
+top:50px;
+width :px;
+height :px;
+}#radio1{
+width :px;
+height :px;
+}#radio2{
+width :px;
+height :px;
+}#radio3{
+width :px;
+height :px;
+}#etiqueta5{
+position: absolute;
+left:50px;
+top:100px;
+width :200px;
+height :10px;
+color: rgb(17,0,255);
+
+}#contenedor5{
+position: absolute;
+left:50px;
+top:125px;
+width :px;
+height :px;
+}#checkbox1{
+width :px;
+height :px;
+}#checkbox2{
+width :px;
+height :px;
+}#areatexto1{
+position: absolute;
+left:50px;
+top:175px;
+width :150px;
+height :150px;
+}#boton1{
+position: absolute;
+left:400px;
+top:25px;
+width :px;
+height :px;
+}
