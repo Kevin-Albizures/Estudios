@@ -1,0 +1,12 @@
+digraph G {
+node[shape=septagon, style=filled, color=darkgoldenrod];
+rankdir=LR;
+N0[label="Se rechazó a 
+1234 1234: 
+ 2023-03-01 14:37:13"];
+N1[label="Se aceptó a
+Kevin Albizures: 
+ 2023-03-01 14:32:51"];
+N0->N1
+
+}

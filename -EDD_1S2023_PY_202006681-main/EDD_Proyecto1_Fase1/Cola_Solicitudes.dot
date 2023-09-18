@@ -1,0 +1,10 @@
+digraph G {
+node[shape=septagon, style=filled, color=darkgoldenrod];
+rankdir=LR;
+N0[label="Carnet:789
+Nombre: 4567 4567"];
+N1[label="Carnet:456
+Nombre: 1234 1234"];
+N0->N1
+
+}

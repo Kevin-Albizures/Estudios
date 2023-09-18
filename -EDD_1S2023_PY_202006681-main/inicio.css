@@ -1,0 +1,86 @@
+
+::-webkit-scrollbar-thumb {
+  background-color: #3D0899;
+  border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar {
+  background-color: #140333;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background-color: #240459;
+  }
+
+
+
+body {
+  font-family: "Lucida Bright", Georgia, serif;
+  background-color: #140333;
+  color: #E8D4B5;
+  padding-top: 10%;
+}
+
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #240459;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #E8D4B5;
+}
+
+.btn-personalizado{
+  color: #E8D4B5;
+  background-color: #471799;
+  border: 1px;
+  border-color: #140333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* button {
+  background-color: #4CAF50;
+  color: #E8D4B5;
+  background-color: #471799;
+  border: 1px;
+  border-color: #140333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+.btn-personalizado:active  {
+  background-color: #560BD9; /* nuevo color de fondo */
+  border-color: #140333; /* nuevo color del borde */
+}
+
+button:hover {
+  background-color: #560BD9;
+}
