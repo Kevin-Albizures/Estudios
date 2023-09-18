@@ -1,0 +1,17 @@
+digraph G {
+  ## dot.exe - Tpng Tarea.dot -o Tarea_3.png
+  node [shape=box,fontname=arial,style=filled,color=maroon,fillcolor=navajowhite]
+  
+  Curso[label="Lenguajes &#92; Formales &#92; \n y &#92; de  &#92; Programación"]
+  Sección [label="Sección  &#92; B-"]
+  Nombre [shape=record,label="<f0> Nombre | <f1> Kevin &#92; Albizures"]
+  Carnet [label="Carnet:\n &#92; 202006681"]
+  Correo [label="Correo: \n &#92; ks.albizures@gmail.com"]
+
+  Tarea3 -> Curso;
+  Tarea3 -> Nombre:f0;
+  Curso -> Sección;
+  Nombre:f1 -> Carnet -> Correo;
+
+  Tarea3 [shape=doubleoctagon];
+}
