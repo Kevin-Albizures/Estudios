@@ -1,0 +1,44 @@
+
+body{
+    background-image: 
+        repeating-linear-gradient(
+            -45deg,
+            #fff,
+            #fff 20px,
+            #f4c8a3ca 20px,
+            #c98d64 40px
+        )
+        
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+p{
+    border-radius: 5%;
+    color: blue;
+    background-color:cadetblue ;
+    /*font-size: 24px;*/
+}
+
+#Bloque1 {
+    background-color: #093A69;
+    height: 100%;
+    width: 55%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#Bloque2 {
+    background-color: aqua;
+    height: 55%;
+    width: 100%;
+    
+    margin-bottom: 5%;
+}
+
+hr{
+    color: aqua;
+}
